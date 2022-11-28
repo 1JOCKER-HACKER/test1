@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Create Website with Auto Typing Text Effect</title>
+  <link rel="stylesheet" href="">
+  
+   <style>
+  
+  body{
+    background-color: white;
+    background-image: url('futuristic-networking-technology-background-vector-purple-tone_53876-110876.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .container{
+    border: 2px solid #4a5b76;
+    margin-top: 165px;
+    position: absolute;
+    margin-right: 10px;
+    width: 338px;
+    
+  }
+  
+ 
+  p{
+    padding: 10px;
+    color: #9D00FF;
+    letter-spacing: 2px;
+ 
+  }
+  
+  a{
+    margin-left: 260px;
+    color: #9D00FF;
+    text-decoration: none;
+    
+  }
+  
+  .footer{
+    margin-top: 450px;
+    color:  #9D00FF;
+    letter-spacing: 1px;
+   
+  }
+  
+  .btn{
+    align-items: center;
+    display: block;
+    text-align:center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 310px;
+    padding: 5px;
+  }
+ 
+  .anc{
+    margin: 0px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .tops{
+   
+  }
+ 
+    
+    
+  </style>
+</head>
+
+<body>
+  <div class="tops">
+  <a href="LoginPage.html">Sign in →</a>
+  </div>
+  
+<div class="container">
+    <div class="text-box">
+      <p><b><span class="auto-input"></b></span>
+  
+    </div>
+     <button class="btn" id = "btn" onclick="location.href = 'registration.html' ">Continue</button>
+    </div>
+
+    <div clsss = "fotter-box">
+    <footer class="footer"><b>By creating an account, you agree to the <a href = "#" class="anc">Terms of Service.</a> For more information about Phising_Master's privacy practices, see the  <a href = "#"  class="anc">Phising Master Privacy Statement.</a>We'll occasionally send you account-related emails.</b>
+    </footer>
+    </div>
+ 
+  
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script>
+    let typed = new Typed(".auto-input", {
+      strings: ["Welcome to Phishing Master!ㅤLet’s begin the adventure."],
+      typeSpeed: 30,
+      backSpeed: 1,
+      loop: false 
+    })
+    
+      document.getElementById("btn").style.display = "none";
+
+        function showStuff() {
+            document.getElementById("btn").style.display = "inline";
+        }
+
+        
+
+        setTimeout(showStuff, 4000);
+    </script>
+  </script>
+
+</body>
+</html>
